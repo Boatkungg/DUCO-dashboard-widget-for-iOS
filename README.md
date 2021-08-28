@@ -46,5 +46,7 @@ How to install (use)?
 
 ![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/289E3C06-0250-4719-8F6C-6CC161D43B16.jpeg)
 
+![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/503D4654-A1B5-4565-B4CF-6EA28EDCA998.jpeg)
+
 and done your dashboard is ready
 
