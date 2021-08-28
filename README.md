@@ -9,6 +9,7 @@ How to install (use)?
 3.hold on the code then press "share"
 
 4.slide left until you find "more"
+![]()
 
 5.slide down until you find "scriptable"
 
