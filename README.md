@@ -32,6 +32,8 @@ How to install (use)?
 
 11.add new scriptable widget
 
+![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/F5A898E6-8B31-4E6B-9570-0151B48D7017.jpeg)
+
 12.exit home screen editing mode
 
 13.hold on the scriptable widget
