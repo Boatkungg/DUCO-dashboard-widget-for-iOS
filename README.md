@@ -38,7 +38,11 @@ How to install (use)?
 
 13.hold on the scriptable widget
 
-14.at "Script" select "DUCO dashboard"
+14.press "edit widget"
+
+![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/F4E993D1-C4F5-4DCF-BC01-530E637EFC4E.jpeg)
+
+15.at "Script" select "DUCO dashboard"
 
 ![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/289E3C06-0250-4719-8F6C-6CC161D43B16.jpeg)
 
