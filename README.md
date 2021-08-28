@@ -1,8 +1,10 @@
 # DUCO-dashboard-widget-for-iOS
 
+A [duino coin](https://github.com/revoxhere/duino-coin) dashboard for iOS using scriptable app
+
 ## How to install (use)?
 
-1.install [scriptable](https://apps.apple.com/th/app/scriptable/id1405459188)
+1.install [scriptable](https://apps.apple.com/app/scriptable/id1405459188)
 
 2.download the code
 
