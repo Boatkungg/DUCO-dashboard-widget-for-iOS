@@ -20,3 +20,19 @@ How to install (use)?
 
 7.press "add to my script"
 
+8.press three dot
+
+9.change "Your username" to your username
+
+10.at the home screen edit the home screen
+
+11.add new scriptable widget
+
+12.exit home screen editing mode
+
+13.hold on the scriptable widget
+
+14.at "Script" select "DUCO dashboard"
+
+and done your dashboard is ready
+
