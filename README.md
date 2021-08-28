@@ -26,6 +26,8 @@ How to install (use)?
 
 9.change "Your username" to your username
 
+![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/8D19093A-A699-4D90-B1D8-497DC4F3C1D8.jpeg)
+
 10.at the home screen edit the home screen
 
 11.add new scriptable widget
