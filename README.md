@@ -1,6 +1,6 @@
 # DUCO-dashboard-widget-for-iOS
 
-How to install (use)?
+## How to install (use)?
 
 1.install [scriptable](https://apps.apple.com/th/app/scriptable/id1405459188)
 
