@@ -1,0 +1,12 @@
+{
+  "always_run_in_app" : false,
+  "icon" : {
+    "color" : "red",
+    "glyph" : "address-card"
+  },
+  "name" : "DUCO dashboard ",
+  "script" : "const USERNAME = 'Your Username' \/\/ <-- Your username here\n  \n    \nasync function getUserJson(username) {  \n  const loadedJson = await new Request('https:\/\/server.duinocoin.com\/users\/' + username).loadJSON();\n  const result = {\n  'username': loadedJson['result']['balance']['username'],\n  'balance': loadedJson['result']['balance']['balance'],\n  'miners': loadedJson['result']['miners'].length,\n  'lasttransactionamount': loadedJson['result']['transactions'][loadedJson['result']['transactions'].length - 1]['amount'], \n  'lasttransactionrecipient': loadedJson['result']['transactions'][loadedJson['result']['transactions'].length - 1]['recipient'],  \n  'lasttransactionsender': loadedJson['result']['transactions'][loadedJson['result']['transactions'].length - 1]['sender']\n  };\n  return result;\n}\n\nasync function createWidget(USERNAME) {      \n  let dashbroadJson = await getUserJson(USERNAME);\n  \n  const dashbroadWidget = new ListWidget();      \n  dashbroadWidget.backgroundColor = Color.black();\n  \n  const stack = dashbroadWidget.addStack();\n  stack.size = new Size(340, 0);\n  stack.addSpacer(4);\n  stack.layoutVertically();\n  \n  const name = stack.addText('  🤑 | Username: ' + dashbroadJson['username']);\n  name.font = new Font('Menlo', 17);\n  \n  const bal = stack.addText('  👛 | Balance: ~' + dashbroadJson['balance'].toFixed(3) + ' DUCO(s)');\n  bal.font = new Font('Menlo', 15);\n  \n  const miner = stack.addText('  ⛏ | Miner(s): ' + dashbroadJson['miners']);\n  miner.font = new Font('Menlo', 15);\n  \n  const transaction1 = stack.addText('  💸 | Last transaction:');\n  transaction1.font = new Font('Menlo', 15);\n  \n  const transaction2 = stack.addText('      Amount: ~' + dashbroadJson['lasttransactionamount'].toFixed(3) +  ' DUCO(s)');\n  transaction2.font = new Font('Menlo', 13);\n  \n  const transaction3 = stack.addText('      From: ' + dashbroadJson['lasttransactionsender']);\n  transaction3.font = new Font('Menlo', 13);\n  \n  const transaction4 = stack.addText('      To: ' + dashbroadJson['lasttransactionrecipient']);\n  transaction4.font = new Font('Menlo', 13);\n  \n  return dashbroadWidget;\n}\n\nScript.setWidget(await createWidget(USERNAME));\nScript.complete();\n\n",
+  "share_sheet_inputs" : [
+
+  ]
+}
