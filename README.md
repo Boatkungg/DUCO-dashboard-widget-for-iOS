@@ -52,3 +52,8 @@ A [duino coin](https://github.com/revoxhere/duino-coin) dashboard for iOS using 
 
 and done your dashboard is ready
 
+## FAQ
+
+### when it will refresh?
+
+i don't know but it will refresh
