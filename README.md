@@ -40,5 +40,7 @@ How to install (use)?
 
 14.at "Script" select "DUCO dashboard"
 
+![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/289E3C06-0250-4719-8F6C-6CC161D43B16.jpeg)
+
 and done your dashboard is ready
 
