@@ -22,6 +22,8 @@ How to install (use)?
 
 8.press three dot
 
+![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/A9F23E55-4627-4C9D-B7C1-B79EFB4E0223.jpeg)
+
 9.change "Your username" to your username
 
 10.at the home screen edit the home screen
