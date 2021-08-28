@@ -12,7 +12,9 @@ How to install (use)?
 
 ![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/027FE997-E141-40C5-B342-6FB3B7D55278.gif)
 
-5.slide down until you find "scriptable"
+5.scrol down until you find "scriptable"
+
+![](https://github.com/l3oatkunGG/DUCO-dashboard-widget-for-iOS/blob/main/Picture/6744C1A6-AE80-4065-B5DF-A9D44D8884B1.gif)
 
 6.press on "scriptable"
 
